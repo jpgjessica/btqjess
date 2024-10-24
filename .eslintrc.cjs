@@ -7,6 +7,12 @@ module.exports = {
     'hydrogen/prefer-image-component': 'off',
     'no-useless-escape': 'off',
     'no-case-declarations': 'off',
-    'no-console': ['warn', {allow: ['warn', 'error']}],
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };
